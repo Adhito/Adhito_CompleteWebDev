@@ -1,0 +1,70 @@
+/* Selector{
+	Property : value;
+	}*/
+
+/*Represent all*/
+* {
+	text-align: center;
+}
+
+
+
+body {
+	background-image: url(julian-christian-anderson-1177638-unsplash.jpg);
+	background-size: cover;
+}
+
+header {
+	text-align: center;
+}
+
+h2 , p {
+	color: 	#grey;
+	text-align: center;
+	border: 5px solid #444443;
+	cursor: pointer;
+}
+
+p {
+	font-size: 100%;
+	font-family: 'Oswald', sans-serif;
+	color: #444443;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+
+
+.webtext {
+	border: 5px solid white;
+	text-align: left;
+}
+
+.air {
+	text-decoration: underline;
+	font-size: 1.5em;
+	border: 5px solid black;
+	color:  #D8D8D8;
+}
+
+.macBook {
+	text-decoration: underline;
+	font-size: 1.5em;
+	border: 5px solid black;
+	color: black;
+}
+
+#macBookList {
+	background: grey;
+}
+
+#content1 {
+	line-height: 25px;
+	background: rgba(78, 77, 77, 0.2);
+}
