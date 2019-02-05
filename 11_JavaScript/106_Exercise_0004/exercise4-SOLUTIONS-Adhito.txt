@@ -1,0 +1,23 @@
+var age = 18;
+undefined
+if( age < 18){
+	alert(" Too young");
+} else if(age === 18){
+	alert(" Congrats on first time driving !");
+} else if(age > 18){
+	alert(" Enjoy !");
+}
+
+undefined
+age = 20
+
+20
+if( age < 18){
+	alert(" Too young");
+} else if(age === 18){
+	alert(" Congrats on first time driving !");
+} else if(age > 18){
+	alert(" Enjoy !");
+}
+
+undefined
