@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping List</title>
+  <title>ShoppingList</title>
+
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--[if it IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <header>
+	<div class="container h-100">
+		<div class="row h-100 justify-content-center align-items-center">
+			<div class="col-12 col-md-12 col-lg-6">
+				<!-- logo (h1 element) -->
+				<h1 class="mainHeader">
+					<i class="fas fa-shopping-basket"></i>Shopping<span>List</span>
+				</h1> <!-- end of h1 -->
+
+				<!-- 3 borders color under the h1 element -->
+				<div class="borderBottom">
+					<div class="borderColor1"></div>
+					<div class="borderColor2"></div>
+					<div class="borderColor3"></div>
+				</div> <!-- end of borderBottom -->
+				<h2>How to use?</h2>
+				<ol class="guide">
+					<li class="guideList">Click on <strong>"Enter items!"</strong>, type what you need
+					and click on the <strong>Add</strong> button.</li>
+					<li class="guideList">You can remove items by clikcking on the <strong>Red X</strong> button.</li>
+					<li class="guideList">You can mark items as done by clicking on the items.</li>
+				</ol>
+			</div> <!-- end of column -->
+		</div>	<!-- end of row -->
+	</div> <!-- end of container -->
+</header> <!-- end of header -->
+
+<!-- main content 
+	starts here -->
+
+<section class="shoppingList">
+	<div class="container h-100">
+		<div class="row h-100 justify-content-center align-items-center">
+			<div class="col-12 col-md-12 col-lg-12 listContainer">
+				<input id="userinput" type="text" placeholder="Enter items!">
+				<button id="add"><i class="fas fa-cart-plus"></i>Add</button>
+				<!-- shopping list -->
+				<ul class="shopList">
+					<!-- list items are added using HTML DOM -->
+				</ul>
+			</div> <!-- end of column -->
+		</div>	<!-- end of row -->
+	</div> <!-- end of container -->
+</section> <!-- end of section -->
+
+<footer>
+	<div class="container h-100">
+		<div class="row h-100 justify-content-center align-items-center">
+			<div class="col-12">
+		        <!-- social navigaion links -->
+		    	<a href="https://www.facebook.com/ItamarRosenblum94" title="Like me on Facebook" target="_blank"><i class="fab fa-facebook-square"></i></a>
+
+		    	<a href="https://twitter.com/ItamarRosenblum" title="Follow me on Twitter" target="_blank"><i class="fab fa-twitter-square"></i></a>
+
+		    	<a href="https://www.instagram.com/itamarrosenblum1/" title="Follow me on Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+
+		    	<a href="skype:itamarfelr?chat" title="Contact me via Skype" target="_blank"><i class="fab fa-skype skypeIcon"></i></a>
+
+		    	<a href="mailto:itamarfel10@gmail.com" title="Contact me via Email" target="_blank"><i class="fas fa-envelope-square"></i></a>
+		    	
+				<p>2018 &copy; Made by Itamar Rosenblum<br>
+					for <a href="https://www.udemy.com/the-complete-web-developer-in-2018/" title="Go to The Complete Web Developer in 2018: Zero to Mastery" target="_blank">Zero To Mastery course</a> exercise.
+				</p>       
+			</div> <!-- end of column -->
+		</div>	<!-- end of row -->
+	</div> <!-- end of container -->
+</footer> <!-- end of footer -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
